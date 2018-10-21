@@ -46,7 +46,7 @@ Player.prototype.update = function() {
     this.range();
     setTimeout(function(){
       player.reset();
-    },3000)
+    },200)
 };
 
 // 在屏幕上画出角色，
